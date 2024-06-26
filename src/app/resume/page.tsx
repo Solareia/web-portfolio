@@ -10,9 +10,9 @@ export default function Projects() {
         <main>
             <div className="block md:w-full h-screen overflow-y-auto">
                 <Navbar />
-                <div className="mt-20 flex w-full md:mx-auto md:w-1/3 justify-center items-center ring-1 ring-crust rounded-md">
+                <div className="md:mt-20 flex w-full md:mx-auto md:w-1/3 justify-center items-center md:ring-1 md:ring-crust rounded-md">
                     <div className="grid grid-cols-1 divide-crust">
-                        <div className="text-center md:text-2xl my-2 text-latte_text dark:text-mocha_text">
+                        <div className="text-center md:text-2xl my-2 text-latte_text dark:text-mocha_text hidden md:block">
                             Resume
                         </div>
                         <div className="px-2">

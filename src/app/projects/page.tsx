@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import Link from "next/link"
 
 export default function Projects() {
     return(
@@ -13,7 +14,9 @@ export default function Projects() {
                         <div className="px-2">
                             <ul className="pt-4 pb-8">
                                 <li className="md:text-xl text-latte_text dark:text-mocha_text pb-2">
-                                    Web Portfolio
+                                    <Link href={"https://github.com/HarmonicAria/web-portfolio"}>
+                                        Web Portfolio
+                                    </Link>
                                 </li>
                                 <li className="md:text-base text-latte_subtext dark:text-mocha_subtext font-thin italic">
                                     Website that showcases my work, you are looking at it right now.
