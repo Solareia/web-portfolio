@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: rgb(220, 224, 232);
+}
+
+[data-theme='dark'],
+[data-theme='dark'] body {
+  background: rgb(30, 30, 46);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
