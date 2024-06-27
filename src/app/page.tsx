@@ -17,7 +17,7 @@ export default function Page() {
                     <p className="text-6xl flex justify-center my-4 text-latte_text dark:text-mocha_text">Artur Yasinskiy</p>
                     <p className="flex justify-center font-thin text-latte_subtext_1 dark:text-mocha_subtext my-4">AUTOMATION • SCRIPTING • SECURITY</p>
                     <div className="flex justify-center items-center text-2xl space-x-2 text-latte_yellow dark:text-mocha_yellow">
-                        <Link href={"https://github.com/HarmonicAria/"}>
+                        <Link href={"https://github.com/Solareia"}>
                             <AiFillGithub />
                         </Link>
                         <Link href={"mailto:yasinskiyartur@protonmail.com"}>
