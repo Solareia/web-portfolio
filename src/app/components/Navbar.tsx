@@ -49,25 +49,25 @@ export default function Navbar() {
         <div>
             <div className="w-full h-20 bg-crustlight dark:bg-crust static">
             <div className="w-full px-2 h-full hidden md:block">
-                <div className="flex items-center justify-end h-full px-6">
-                    <ul className="gap-x-4 text-latte_text dark:text-mocha_text flex">
+                <div className="flex items-center justify-end h-full">
+                    <ul className="gap-x-4 text-latte_text dark:text-mocha_text flex mr-8 items-center">
                         <li>
                             <Link href={"/"}>
-                                <p className="align-middle hover:underline">Home</p>
+                                <p className="align-middle relative text-lg block after:block after:content-[''] after:absolute after:h-[3px] after:bg-tokyogreen after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Home</p>
                             </Link>
                         </li>
                         <li>
                             <Link href={"/projects"}>
-                                <p className="align-middle hover:underline">Projects</p>
+                                <p className="align-middle relative text-lg block after:block after:content-[''] after:absolute after:h-[3px] after:bg-tokyogreen after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Projects</p>
                             </Link>
                         </li>
                         <li>
                             <Link href={"/resume"}>
-                                <p className="align-middle hover:underline">Resume</p>
+                                <p className="align-middle relative text-lg w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-tokyogreen after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">Resume</p>
                             </Link>
                         </li>
                         <li>
-                            <button className="align-middle text-xl text-latte_yellow dark:text-mocha_yellow" onClick={promiseToggle}>
+                            <button className="align-middle relative text-2xl text-latte_yellow dark:text-mocha_yellow" onClick={promiseToggle}>
                                 <WiMoonAltWaningCrescent2 />
                             </button>
                         </li>

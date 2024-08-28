@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Catamaran } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes"
 
-const primaryFont = Catamaran({ subsets: ['latin'] });
+const primaryFont = JetBrains_Mono({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: "Artur Yasinskiy",
+    title: "Solareia",
 };
 
 export default function RootLayout({

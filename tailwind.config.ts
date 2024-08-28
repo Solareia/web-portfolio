@@ -10,13 +10,14 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
+                'tokyogreen': '#9ece6a',
                 'blue': '#89b4fa',
                 'mocha_red': '#f38ba8',
-                'crust': '#11111b',
+                'crust': '#16161e',
                 'mocha_lavender': '#b4befe',
                 'mocha_yellow': '#f9e2af',
                 'crustlight': '#dce0e8',
-                'base': '#1e1e2e',
+                'base': '#1a1b26',
                 'baselight': '#eff1f5',
                 'mocha_text': '#cdd6f4',
                 'mocha_subtext': '#bac2de',
